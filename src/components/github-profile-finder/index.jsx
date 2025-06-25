@@ -23,9 +23,9 @@ export default function GithubProfileFinder() {
     fetchGithubUserData()
   }
 
-  useEffect(() => {
-    fetchGithubUserData();
-  }, []);
+//   useEffect(() => {
+//     fetchGithubUserData();
+//   }, []);
 
   if (loading) {
     return <h1>Loading data ! Please wait</h1>;
