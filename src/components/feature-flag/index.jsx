@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Accordian from "../accordian";
-// import LightDarkMode from "../light-dark-mode";
+import LightDarkMode from "../light-dark-mode";
 // import RandomColor from "../random-color";
 // import TicTacToe from "../tic-tact-toe";
 // import TreeView from "../tree-view";
@@ -12,10 +12,10 @@ export default function FeatureFlags() {
   const { loading, enabledFlags } = useContext(FeatureFlagsContext);
 
   const componentsToRender = [
-    // {
-    //   key: "showLightAndDarkMode",
-    //   component: <LightDarkMode />,
-    // },
+    {
+      key: "showLightAndDarkMode",
+      component: <LightDarkMode />,
+    },
     // {
     //   key: "showTicTacToeBoard",
     //   component: <TicTacToe />,
