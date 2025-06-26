@@ -4,29 +4,15 @@ import "./App.css";
 // import TabTest from "./components/custom-tabs/tab-test";
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
-import GithubProfileFinder from "./components/github-profile-finder/index";
-import ImageSlider from "./components/image-slider";
+// import GithubProfileFinder from "./components/github-profile-finder/index";
+// import ImageSlider from "./components/image-slider";
+import LoadMoreData from "./components/load-more-data";
 // import LightDarkMode from "./components/light-dark-mode";
 
 function App() {
   return (
     <div className="App">
-
-      {/* <Accordian /> */}
-      {/* <ModalTest /> */}
-      {/* <TabTest /> */}
-      {/* <FeatureFlagGlobalState>
-        <FeatureFlags />
-      </FeatureFlagGlobalState> */}
-
-      {/* <LightDarkMode /> */}
-      {/* <GithubProfileFinder /> */}
-
-      <ImageSlider
-      url={"https://picsum.photos/v2/list"}
-      page={"1"}
-      limit={"10"}
-      />
+      <LoadMoreData />
     </div>
   );
 }
