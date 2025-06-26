@@ -5,6 +5,7 @@ import "./App.css";
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
 import GithubProfileFinder from "./components/github-profile-finder/index";
+import ImageSlider from "./components/image-slider";
 // import LightDarkMode from "./components/light-dark-mode";
 
 function App() {
@@ -19,7 +20,13 @@ function App() {
       </FeatureFlagGlobalState> */}
 
       {/* <LightDarkMode /> */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      <ImageSlider
+      url={"https://picsum.photos/v2/list"}
+      page={"1"}
+      limit={"10"}
+      />
     </div>
   );
 }
