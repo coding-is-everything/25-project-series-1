@@ -1,6 +1,8 @@
 import "./App.css";
 // import RandomColor from "./components/random-color";
 import ScrollIndicator from "./components/scroll-indicator";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 // import Accordian from "./components/accordian";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
 // import TabTest from "./components/custom-tabs/tab-test";
@@ -18,7 +20,9 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* <QRCodeGenerator /> */}
       {/* <RandomColor /> */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=200"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=200"} /> */}
+      <ScrollToTopAndBottom />
+      <ScrollToSection />
     </div>
   );
 }
