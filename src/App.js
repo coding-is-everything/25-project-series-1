@@ -1,5 +1,6 @@
 import "./App.css";
-import RandomColor from "./components/random-color";
+// import RandomColor from "./components/random-color";
+import ScrollIndicator from "./components/scroll-indicator";
 // import Accordian from "./components/accordian";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
 // import TabTest from "./components/custom-tabs/tab-test";
@@ -16,7 +17,8 @@ function App() {
     <div className="App">
       {/* <LoadMoreData /> */}
       {/* <QRCodeGenerator /> */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=200"} />
     </div>
   );
 }
